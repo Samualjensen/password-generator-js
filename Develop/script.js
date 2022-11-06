@@ -1,5 +1,5 @@
 // Variables
-var characterLength = 8;
+var characterLength = [];
 var choiceArray = [];
 var specialCharacter = ["!", "@", "#", "$", "%", "^", "&", "*"];
 var number = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
@@ -28,9 +28,14 @@ generateBtn.addEventListener("click", writePassword);
 
 function generatePassword() {
   var password = "";
-  for(var i = 0; i < characterLength; i++) {
-    password += (Math.floor(Math.random() * choiceArray.length));
-    password = password + choiceArray[randomnPassword];
+  console.log(choiceArray, "length")
+  console.log(characterLength, "character length")
+  
+  for (var i = 0; i < characterLength; i++) {
+    randomIndex = (Math.floor(Math.random() * choiceArray.length));
+    console.log(randomIndex, "index")
+    password += choiceArray[randomIndex];
+    console.log(password, "password")
   }
   return password;
 }
