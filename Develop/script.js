@@ -12,10 +12,10 @@ var generateBtn = document.querySelector("#generate");
 // Write password function
 function writePassword() {
   var correctPrompts = getPrompts(); //returns true or false 
+  var passwordText = document.querySelector("#password");
 
   if (correctPrompts) {
     var password = generatePassword();
-    var passwordText = document.querySelector("#password");
     passwordText.value = password;
   }
   else {
