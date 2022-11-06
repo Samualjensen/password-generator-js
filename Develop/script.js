@@ -1,5 +1,5 @@
 // Variables
-var characterLength = [];
+var characterLength;
 var choiceArray = [];
 var specialCharacter = ["!", "@", "#", "$", "%", "^", "&", "*"];
 var number = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
@@ -43,8 +43,8 @@ function generatePassword() {
 // Function to generate password prompt
 function getPrompts() {
 
-  var choiceArray = [];
-  var characterLength = parseInt(prompt("Hello there, your new password must be 8-128 characters."));
+  // var choiceArray = [];
+  characterLength = parseInt(prompt("Hello there, your new password must be 8-128 characters."));
 
   if (isNaN(characterLength) || characterLength < 8 || characterLength > 128) {
     alert("ALERT: Password must be between 8 - 128 characters.");
