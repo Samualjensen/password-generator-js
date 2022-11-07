@@ -6,9 +6,9 @@ The third weekly challenge is to use the starter code provided to us and write t
 
 ## Links 
 
-Link to live url: https://samualjensen.github.io/class-challenge-1/
+Link to live url: https://samualjensen.github.io/password-generator-js/
 
-Link to repository: https://github.com/Samualjensen/class-challenge-1
+Link to repository: https://github.com/Samualjensen/password-generator-js
 
 ## Installation
 
