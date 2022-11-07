@@ -16,7 +16,7 @@ Upload index.html, license.txt, and assets folder to the deployed webserver. The
 
 ## Webapge Image
 
-![img](./Develop/images/js-password-generator-screenshot.png)
+![img](./images/js-password-generator-screenshot.png)
 
 ## Credits 
 
